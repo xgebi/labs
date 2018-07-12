@@ -146,29 +146,57 @@ h1 span {
 }
 
 .verse-1 span:nth-child(21) {
+	grid-row: 22 / span 2;
+	font-size: 2rem;
+	text-decoration: underline;
+	grid-column: 1 / span 3;
+	font-weight: 300;
 }
 
 .verse-1 span:nth-child(22) {
+	grid-row: 22 / span 2;
+	grid-column: 4 / span 7;
+	font-weight: 200;
+	font-size: 2rem;
 }
 
 .verse-1 span:nth-child(23) {
+	grid-row: 24 / span 4;
+	font-size: 3rem;
+	font-weight: 900;
+	grid-column: 1 / span 13;
 }
 
 .verse-1 span:nth-child(24) {
+	grid-row: 25 / span 1;
+	grid-column: 14 / 15;
+	writing-mode: sideways-rl;
 }
 
 .verse-1 span:nth-child(25) {
+	grid-row: 26 / span 3;
+	writing-mode: sideways-lr;
+	grid-column: 14;
 }
 
 .verse-1 span:nth-child(26) {
-  
+	grid-row: 27 / span 3;
+	font-size: 2rem;
+	text-decoration: underline overline;
+	grid-column: 1 / span 6;
 }
 
 .verse-1 span:nth-child(27) {
-  
+	grid-row-start: 27;
+	grid-column-start: 8;
+	transform: rotate(45deg);
+	font-size: 1.25rem;
 }
 .verse-1 span:nth-child(28) {
-  
+	grid-row: 29 / span 2;
+	font-size: 2rem;
+	transform: rotate(45deg);
+	grid-column: 8;
 }
 
 .verse-1 span:nth-child(29) {
