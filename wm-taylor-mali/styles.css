@@ -4,7 +4,7 @@ body {
 }
 
 article {
-  column-width: 16rem;
+
 }
 
 h1 span {
@@ -200,5 +200,62 @@ h1 span {
 }
 
 .verse-1 span:nth-child(29) {
-  
+	grid-row: 34 / span 2;
+	font-size: 2rem;
+	color: white;
+	text-shadow: 0px 0px 3px black;
+}
+
+.verse-1 span:nth-child(30) {
+	grid-row: 32 / span 3;
+	font-size: 2rem;
+	transform: rotate(45deg);
+	grid-column: 7;
+}
+
+.verse-1 span:nth-child(31) {
+	grid-row: 36 / span 2;
+	font-size: 1.5rem;
+	grid-column: 13 / span 5;
+}
+
+.verse-1 span:nth-child(32) {
+	writing-mode: sideways-rl;
+	grid-row: 39 / span 3;
+	font-weight: 900;
+	font-size: 1.5rem;
+	grid-column: 1 / 2;
+}
+
+.verse-1 span:nth-child(33) {
+	grid-row: 39;
+	font-size: 2rem;
+	text-decoration: underline;
+}
+
+.verse-1 span:nth-child(34) {
+    grid-row: 42;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.verse-1 span:nth-child(35) {
+	grid-row: 42;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.verse-1 span:nth-child(36) {
+	
+}
+
+.verse-1 span:nth-child(37) {
+	
+}
+.verse-1 span:nth-child(38) {
+	
+}
+
+.verse-1 span:nth-child(39) {
+	
 }
