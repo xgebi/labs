@@ -3,10 +3,6 @@ body {
   text-decoration-skip-ink: auto;
 }
 
-article {
-
-}
-
 h1 span {
 	transform: rotate(180deg) scaleX(-1);
 	display: inline-block;
@@ -302,4 +298,71 @@ h1 span {
 .verse-1 span:nth-child(45) {
 	grid-row: 52 / span 1;
 	grid-column: 8 / span 6;
+}
+
+.verse-1 span:nth-child(46) {
+	grid-row: 56 / span 3;
+	font-weight: 900;
+	font-size: 3rem;
+	grid-column: 1 / span 7;
+}
+
+.verse-1 span:nth-child(47) {
+	grid-row: 56 / span 1;
+	grid-column: 8 / span 3;
+}
+
+.verse-1 span:nth-child(48) {
+	grid-row: 57 / span 1;
+	grid-column: 8 / span 3;
+}
+
+.verse-1 span:nth-child(49) {
+	grid-row: 58 / span 1;
+	grid-column: 8 / span 5;
+}
+
+.verse-1 span:nth-child(50) {
+	grid-row: 56 / span 2;
+	font-size: 2rem;
+}
+
+.verse-1 span:nth-child(51) {
+	transform: rotate(180deg);
+	grid-row: 59 / span 3;
+	grid-column: 12;
+	font-size: 3rem;
+	font-style: italic;
+}
+
+.verse-1 span:nth-child(52) {
+	grid-row: 59;
+	font-size: 2rem;
+	transform: rotate(12deg);
+}
+
+.verse-1 span:nth-child(53) {
+	grid-row: 62;
+	transform: rotate(90deg);
+	font-size: 3rem;
+	grid-column: 12;
+	font-weight: 900;
+}
+
+.verse-1 span:nth-child(54) {
+	grid-row: 62 / span 3;
+	font-size: 3rem;
+}
+
+.verse-1 span:nth-child(55) {
+	grid-row: 65 / span 4;
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+.verse-1 span:nth-child(56) {
+	grid-row: 62 / span 7;
+	font-size: 7rem;
+	grid-column: 11;
+	font-weight: 900;
 }
