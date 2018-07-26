@@ -64,7 +64,8 @@
 	grid-row: 8 / span 3;
 	font-size: 2.75rem;
 	font-weight: 900;
-	grid-column: 1 / span 13;
+	grid-column: 1 / span 12;
+	transform: scaleX(-1);
 }
 
 .verse-2 span:nth-child(12) {
