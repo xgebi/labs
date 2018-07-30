@@ -98,47 +98,75 @@
 }
 
 .verse-2 span:nth-child(17) {
-
+	grid-row: 16 / span 1;
 }
 
 .verse-2 span:nth-child(18) {
-
+	grid-row: 15 / span 3;
+	font-size: 3rem;
+	line-height: 3rem;
+	grid-column: 2 / span 13;
 }
 
 .verse-2 span:nth-child(19) {
-	
+	grid-row: 16;
+	font-weight: 900;
+	font-size: 1.25rem;
+	line-height: 1rem;
 }
 
 .verse-2 span:nth-child(20) {
-	
+	grid-row: 18 / span 2;
+	font-size: 2rem;
+	font-style: italic;
+	grid-column: 1 / span 5;
 }
 
 .verse-2 span:nth-child(21) {
-	
+	grid-row: 18 / span 2;
+	font-size: 2rem;
+	font-style: italic;
+	grid-column: 7 / span 5;
 }
 
 .verse-2 span:nth-child(22) {
-
+	grid-row: 19 / span 1;
+	grid-column: 12;
+	writing-mode: sideways-lr;
 }
 
 .verse-2 span:nth-child(23) {
-
+	grid-row: 18 / span 2;
+	transform: rotate(180deg);
+	font-style: oblique;
+	font-size: 2rem;
+	grid-column: 16;
 }
 
 .verse-2 span:nth-child(24) {
-
+	grid-row: 20 / span 2;
+	font-size: 1.5rem;
+	text-decoration: underline orange;
+	grid-column: 6;
 }
 
 .verse-2 span:nth-child(25) {
-
+	font-size: 3rem;
+	grid-row: 21;
 }
 
 .verse-2 span:nth-child(26) {
-
+	font-size: 4rem;
+	font-weight: 700;
+	grid-row: 24;
 }
 
 .verse-2 span:nth-child(27) {
-
+	grid-row: 20;
+	writing-mode: vertical-rl;
+	font-weight: 900;
+	grid-column: 17;
+	font-size: 5rem;
 }
 
 .verse-2 span:nth-child(28) {
